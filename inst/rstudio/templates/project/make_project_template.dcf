@@ -1,6 +1,10 @@
 Binding: make_project_template
 Title: Colorado Epi Research Template
-OpenFiles: INDEX
+OpenFiles: README.Rmd
+
+Parameter: git
+Widget: CheckboxInput
+Label: Create a git repository
 
 Parameter: createRawDataFolder
 Widget: CheckboxInput
