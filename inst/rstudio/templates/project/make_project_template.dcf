@@ -5,6 +5,7 @@ OpenFiles: README.Rmd
 Parameter: git
 Widget: CheckboxInput
 Label: Create a git repository
+Default: On
 
 Parameter: createRawDataFolder
 Widget: CheckboxInput
