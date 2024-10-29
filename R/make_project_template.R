@@ -17,7 +17,7 @@ make_project_template <- function(path, ...) {
     dir.create(file.path(path, "data_raw"), recursive = TRUE, showWarnings = FALSE)
   }
 
-  if (dots$git) {
+  if(dots[["git"]]) {
     git2r::init(path)
   }
 

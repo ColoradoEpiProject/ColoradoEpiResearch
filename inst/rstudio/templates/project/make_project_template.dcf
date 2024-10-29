@@ -1,6 +1,7 @@
 Binding: make_project_template
 Title: Colorado Epi Research Template
 OpenFiles: README.Rmd
+Icon: our_icon.png
 
 Parameter: git
 Widget: CheckboxInput
