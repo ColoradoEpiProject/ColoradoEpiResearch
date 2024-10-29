@@ -17,6 +17,10 @@ make_project_template <- function(path, ...) {
     dir.create(file.path(path, "data_raw"), recursive = TRUE, showWarnings = FALSE)
   }
 
+  if (dots$git) {
+    git2r::init(path)
+  }
+
   script_source <- system.file("rstudio/templates", "README.Rmd", package = "ColoradoEpiResearch")
   script_dest <- file.path(path, "README.Rmd")
   file.copy(script_source, script_dest, overwrite = TRUE)
