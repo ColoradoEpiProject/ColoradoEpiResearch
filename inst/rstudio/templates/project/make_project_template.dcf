@@ -3,11 +3,6 @@ Title: Colorado Epi Research Template
 OpenFiles: README.Rmd
 Icon: our_icon.png
 
-Parameter: git
-Widget: CheckboxInput
-Label: Create a git repository
-Default: On
-
 Parameter: createRawDataFolder
 Widget: CheckboxInput
 Label: Create a separate folder for raw data
