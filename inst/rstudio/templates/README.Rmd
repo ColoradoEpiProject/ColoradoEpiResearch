@@ -16,26 +16,39 @@ knitr::opts_chunk$set(
 
 ## Objective
 
-The goal of this project is to ...
+[Describe the goal of the project here]
 
 ## Keywords
+
+[Include up to six keywords]
 
 ## Authors
 
 For papers from this project, authors may include: 
 
-[Table with authors, roles]
+[Include here a table or list with authors, roles, contact, department and
+institution]
 
 ## Funding
 
 This project is funded by the following sources: 
 
-[Table with funding sources]
+[Include here a table or list with funding sources. Include funder name, grant
+number, which authors funded]
 
 ## Data
 
-[Description, source]
+[Add a description of the data in this paragraph]
 
+[Add the source of the data in this paragraph]
+
+[Are there any restrictions on the data's use? If so, describe them 
+here. If not, delete this paragraph.]
+
+## Methods
+
+[Provide details on the methods here, including any equation for 
+statistical models that you used in analysis.]
 
 
 
