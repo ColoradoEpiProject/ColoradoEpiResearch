@@ -12,6 +12,34 @@ knitr::opts_chunk$set(
 )
 ```
 
+# Directory Contents
+
+This project contains the following subdirectories: 
+
+- `data_clean`: Includes datasets that are ready for statistical analysis
+and visualization.
+- `data_raw`: If included, has data prior to preprocessing. Scripts in the 
+"R" folder or the "reports_script" folder will provide the code for preprocessing
+this data and saving output in the `data_clean` folder.
+- `R`: Code for functions and / or scripts used in cleaning or analyzing the 
+data. These may be called or otherwise used in conjunction with code in the 
+`reports_script` folder.
+- `reports_script`: Rmarkdown files that incorporate code to conduct analyses
+and create visualizations of the data for the project. The resulting 
+rendered documents should be output to the `reports_rendered` folder. 
+- `reports_rendered`: This folder contains the rendered output files from the
+Rmds in `reports_script`. The files in this folder should be considered
+"read-only"---don't edit them directory, instead edit the associated Rmd in
+`reports_script` and re-render it.
+- `z_old`: A spot for you to chuck old, outdated files. Ideally, you would 
+track with git and just delete old files as you supersede them with new versions, 
+but in case you feel like you really need to hold on to some, this is where to 
+put them. The "z" at the front of the directory name is to make sure this 
+directory is one of the last to show up (alphabetically) in your file finder.
+- `z_other`: A spot for you to save any file that doesn't fit into the other
+categories. Examples include codebooks for datasets, IRB protocol documents, 
+etc.
+
 # Project Metadata
 
 ## Objective
