@@ -7,4 +7,4 @@ Parameter: createRawDataFolder
 Widget: CheckboxInput
 Label: Create a separate folder for raw data
 Default: On
-Position: right
+Position: left
